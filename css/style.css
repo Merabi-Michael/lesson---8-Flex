@@ -78,7 +78,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
- 
 }
 .rightblock {
   display: -webkit-box;
