@@ -74,10 +74,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 .rightblock {
   display: -webkit-box;
@@ -201,24 +197,27 @@
   color: #FFFFFF;
   margin-top: 62px;
 }
-/* .circle {
+.circle {
   width: 131px;
+  height: 45px;
   color: #FFFFFF;
-  border-radius: 50px 50px 50px 50px;
-} */
+  border: 2px solid;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
 .MORE {
   font-size: 15px;
   color: #4B647E;
-  margin-top: 36px;
 }
 .MORE1 {
   font-size: 15px;
   color: #FFFFFF;
-  margin-top: 36px;
 }
 .get-size {
-  width: 600px;
-  margin-left: 700px;
+  width: 620px;
 }
 .block:hover {
   -webkit-box-shadow: 6px 12px 20px #04ff00;
